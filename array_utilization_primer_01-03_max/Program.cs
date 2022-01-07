@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Linq;
 
-namespace array_utilization_primer_01_01_su
+namespace array_utilization_primer_01_03_max
 {
     class Program
     {
@@ -9,13 +9,12 @@ namespace array_utilization_primer_01_01_su
         {
             int n = int.Parse(Console.ReadLine());
             int[] array = new int[n];
-
             for (int i = 0; i < n; i++)
             {
                 array[i] = int.Parse(Console.ReadLine());
             }
 
-            Console.WriteLine(array.Sum());
+            Console.WriteLine(array.Max());
         }
     }
 }
