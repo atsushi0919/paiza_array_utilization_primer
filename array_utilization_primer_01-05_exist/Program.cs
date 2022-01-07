@@ -5,7 +5,7 @@ namespace array_utilization_primer_01_05_exist
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             string[] input = Console.ReadLine().Split();
             int n = int.Parse(input[0]);
