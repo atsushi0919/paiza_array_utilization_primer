@@ -23,7 +23,7 @@ namespace array_utilization_primer_03_04_find_pair
                 int diff = array[i + 1] - array[i];
                 if (diff < minDiff)
                 {
-                    minDiff = Math.Min(minDiff, diff);
+                    minDiff = diff;
                     minIndex = i;
                 }
             }
