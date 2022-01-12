@@ -7,7 +7,7 @@ namespace array_utilization_primer_03_05_line_up
         static void Main()
         {
             string[] input = Console.ReadLine().Split();
-            int n = int.Parse(input[0]);
+            // int n = int.Parse(input[0]);
             int k = int.Parse(input[1]);
             int f = int.Parse(input[2]);
 
